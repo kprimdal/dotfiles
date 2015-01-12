@@ -1,0 +1,15 @@
+# Git credentials
+# Not in the repository, to prevent people from accidentally committing under my name
+GIT_AUTHOR_NAME="Kristian Primdal"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="kristian@primux.dk"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+alias websites="cd ~/Websites"
+alias lpdir="cd ~/Websites/kunder/L/LaunchPeople/ctdev/web/wp-content/"
+alias kunder="cd ~/Websites/kunder/"
+alias chrome="open -a Google\ Chrome --args --disable-web-security"
+alias vu="vagrant up"
+alias vssh="vagrant ssh"
