@@ -13,3 +13,8 @@ alias kunder="cd ~/Websites/kunder/"
 alias chrome="open -a Google\ Chrome --args --disable-web-security"
 alias vu="vagrant up"
 alias vssh="vagrant ssh"
+
+# Git alias
+alias gco = 'git checkout'
+alias gcob = 'get checkout -b'
+alias gup = 'git pull --rebase --prune $@ && git submodule update --init --recursive'
